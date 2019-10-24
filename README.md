@@ -16,7 +16,7 @@
 <code>yum install htop -y</code>
 
     
-* * * 
+
 
 ## Install Sahdowsocks
 
