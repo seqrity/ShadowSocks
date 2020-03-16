@@ -89,7 +89,14 @@ yum install iptables-services -y
 iptables -I INPUT -p tcp --dport 8000 -j ACCEPT
 systemctl enable iptables   
 service iptables save
-</pre></code>
+</code></pre>
+
+##
+If iptables rule doesn't save disable firewalld by the following command:
+
+<pre><code>
+systemctl disable firewalld
+</code></pre>
 
 
 ### Logs
