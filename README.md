@@ -137,8 +137,9 @@ https://www.linode.com/docs/networking/vpn/create-a-socks5-proxy-server-with-sha
 <pre><code>
 
 [DEFAULT]
-# Ban hosts for one hour:
-bantime = 3600
+# Ban hosts permanent:
+maxretry = 3
+bantime = -1
 # Override /etc/fail2ban/jail.d/00-firewalld.conf:
 banaction = iptables-multiport
 [sshd]
