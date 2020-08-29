@@ -186,11 +186,15 @@ systemctl enable fail2ban
 
 ### Clear Fail2Ban log file
 <code>service fail2ban stop</code>
+
 <code>truncate -s 0 /var/log/fail2ban.log</code>
+
 <code>rm /var/lib/fail2ban/fail2ban.sqlite3</code>
+
 <code>service fail2ban restart</code>
 
 **You can save all of them in a .sh file and run it from crontab weekly(Sunday at 4:05AM)**
+
 <code>5 4 * * sun /root/clear_fail2ban_log.sh</code>
 
 ### Reference:
