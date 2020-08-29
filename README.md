@@ -210,7 +210,7 @@ https://www.digitalocean.com/community/tutorials/how-to-protect-ssh-with-fail2ba
 
 ### Linux Client : https://github.com/shadowsocks/shadowsocks-qt5/releases
 
-After download file run the following commands:
+After download file run the following command:
 
 <code>chmod a+x Shadowsocks-Qt5-x86_64.AppImage</code>
 
