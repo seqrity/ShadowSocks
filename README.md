@@ -202,20 +202,25 @@ https://www.digitalocean.com/community/tutorials/how-to-protect-ssh-with-fail2ba
 
 * * *
 
-### Install Client on Windows/Linux/Android
+## Install Client on Windows/Linux/Android
 
-Windows Client: https://github.com/shadowsocks/shadowsocks-windows/releases
 
-Linux Client : https://github.com/shadowsocks/shadowsocks-qt5/releases
+### Windows Client: https://github.com/shadowsocks/shadowsocks-windows/releases
+
+<img src="win_client.png">
+
+### Linux Client : https://github.com/shadowsocks/shadowsocks-qt5/releases
 
 After download file run the following commands:
 
 <code>
 chmod a+x Shadowsocks-Qt5-x86_64.AppImage
-./Shadowsocks-Qt5-x86_64.AppImage
 </code>
 
-Android Client: https://play.google.com/store/apps/details?id=com.github.shadowsocks
+<img src="linux_client.png">
+
+
+### Android Client: https://play.google.com/store/apps/details?id=com.github.shadowsocks
 
 ### Reference:
 Download Page: https://shadowsocks.org/en/download/clients.html
